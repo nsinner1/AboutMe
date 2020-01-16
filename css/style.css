@@ -3,7 +3,8 @@ body {
 }
 
 h1 {
+    font-size: x-large;
     font-weight: bold;
     color: purple;
-    font-size: medium;
-}
+} 
+
