@@ -4,6 +4,7 @@ var userName = prompt('What is your name?');
 console.log(userName);
 
 var natalieAge = prompt('Is Natalie 27 years old?');
+console.log(natalieAge);
 
 if (natalieAge.toLocaleLowerCase() === 'yes') {
   alert('You are correct!');
@@ -14,6 +15,7 @@ if (natalieAge.toLocaleLowerCase() === 'yes') {
 }
 
 var hairColor = prompt('Is Natalies hair color blue?');
+console.log(hairColor);
 
 if (hairColor.toLowerCase() === 'yes') {
   alert('You are incorrect');
