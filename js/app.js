@@ -43,3 +43,13 @@ if (doesCrossFit.toLowerCase() === 'yes') {
   alert('Please answer with yes or no');
 }
 
+var vehicleType = prompt('Does Natalie drive a Mini Cooper?'); 
+
+if (vehicleType.toLowerCase() === 'yes') {
+  alert('Correct! My Mini Cooper is named Sheldon');
+} else if (vehicleType.toLowerCase() === 'no') {
+  alert('You have been tricked, the vehicle that I am driving to school is my mothers');
+} else {
+  alert('Please answer with yes or no');
+}
+
