@@ -6,12 +6,14 @@ h1 {
     font-size: xx-large;
     font-weight: bolder;
     color: purple;
+    text-decoration: underline;
 } 
 
 h2 {
     font-size: x-large;
     font-weight: bold;
-    color: violet
+    color: violet;
+    font-style: italic;
 }
 
 p {
