@@ -3,6 +3,8 @@
 var userName = prompt('What is your name?');
 console.log(userName);
 
+var greetUser = prompt('Hello,' + userName + '. Are your ready to play a game?');
+
 var natalieAge = prompt('Is Natalie 27 years old?');
 // console.log(natalieAge);
 
