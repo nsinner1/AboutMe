@@ -26,6 +26,7 @@ if (hairColor.toLowerCase() === 'yes') {
 }
 
 var likeWine = prompt('Does Natalie like wine?');
+console.log(likeWine);
 
 if (likeWine.toLowerCase() === 'yes') {
   alert('That is correct, I like red and white wines');
@@ -36,6 +37,7 @@ if (likeWine.toLowerCase() === 'yes') {
 }
 
 var doesCrossFit = prompt('Does Natalie workout?');
+console.log(doesCrossFit);
 
 if (doesCrossFit.toLowerCase() === 'yes') {
   alert('Correct, Natalie enjoys CrossFit');
@@ -45,7 +47,8 @@ if (doesCrossFit.toLowerCase() === 'yes') {
   alert('Please answer with yes or no');
 }
 
-var vehicleType = prompt('Does Natalie drive a Mini Cooper?'); 
+var vehicleType = prompt('Does Natalie drive a Mini Cooper?');
+console.log(vehicleType);
 
 if (vehicleType.toLowerCase() === 'yes') {
   alert('Correct! My Mini Cooper is named Sheldon');
