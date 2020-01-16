@@ -3,8 +3,13 @@ body {
 }
 
 h1 {
-    font-size: 500.px;
-    font-weight: bold;
+    font-size: 900.px;
+    font-weight: bolder;
     color: purple;
 } 
 
+h2 {
+    font-size: x-large;
+    font-weight: bold;
+    color: violet
+}
