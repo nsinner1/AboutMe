@@ -5,6 +5,14 @@ console.log(userName);
 
 var greetUser = prompt('Hello,' + userName + '. Are your ready to play a game?');
 
+if (greetUser.toLowerCase() === 'yes') {
+  alert('You chose wisely');
+} else if (greetUser.toLowerCase() === 'no') {
+  alert('You chose poorly');
+} else {
+  alert('You are going to play this game wether you like it or not');
+}
+
 var natalieAge = prompt('Is Natalie 27 years old?');
 // console.log(natalieAge);
 
@@ -59,4 +67,6 @@ if (vehicleType.toLowerCase() === 'yes') {
 } else {
   alert('Please answer with yes or no');
 }
+
+var endMessage = prompt('Thanks for playing' + userName);
 
