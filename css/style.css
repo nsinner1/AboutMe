@@ -1,0 +1,9 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    font-weight: bold;
+    color: purple;
+    font-size: medium;
+}
