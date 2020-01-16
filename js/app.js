@@ -61,12 +61,13 @@ var vehicleType = prompt('Does Natalie drive a Mini Cooper?');
 // console.log(vehicleType);
 
 if (vehicleType.toLowerCase() === 'yes') {
-  alert('Correct! My Mini Cooper is named Sheldon');
+  alert(userName + 'Correct! My Mini Cooper is named Sheldon');
 } else if (vehicleType.toLowerCase() === 'no') {
-  alert('You have been tricked, the vehicle that I am driving to school is my mothers');
+  alert(userName + 'You have been tricked, the vehicle that I am driving to school is my mothers');
 } else {
-  alert('Please answer with yes or no');
+  alert(userName + 'Please answer with yes or no');
 }
 
-var endMessage = prompt('Thanks for playing' + userName);
+// var endMessage = prompt('Thanks for playing ' + userName);
+// console.log(endMessage);
 
