@@ -87,6 +87,7 @@ while (tries < 4) {
         alert('wrong');
      tries++;
     }
+}
 
 if (numericalAnswer === 2 ) {
   alert('That is correct! Washington and North Carolina.');
