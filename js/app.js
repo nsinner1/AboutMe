@@ -76,8 +76,9 @@ console.log(numericalAnswer);
 
 var numericalAnswer = [2];
 
-for (var numericalAnswer = 2; numericalAnswer < 4; numericalAnswer++) {
-    console.log(numericalAnswer[numericalAnswer]);
+while (numericalAnswer < 2) {
+    console.log('answer less then 2');
+    numericalAnswer++;
 }
 
 if (numericalAnswer.toLowerCase() === 2 ) {
