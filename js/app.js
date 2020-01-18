@@ -74,11 +74,11 @@ if (vehicleType.toLowerCase() === 'yes') {
 var numericalAnswer = prompt('How many states has Natalie lived in?');
 console.log(numericalAnswer);
 
-// var i = 2;
+var i = 2;
 
-// // for (var i = 2; i < 4; i = 2) {
-//     console.log(numericalAnswer[i]);
-// }
+for (var i = 2; i < 4; i++) {
+    console.log(numericalAnswer[i]);
+}
 
 if (numericalAnswer.toLowerCase() === 2 ) {
   alert('That is correct! Washington and North Carolina.');
