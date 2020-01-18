@@ -76,11 +76,17 @@ console.log(numericalAnswer);
 
 var tries = 0;
 
-while (tries < 2) {
+while (tries < 4) {
     var numericalAnswer = prompt('How many states has Natalie lived in?');
-    console.log('answer less then 2');
-    tries++;
-}
+    // console.log('answer less then 2');
+
+    if (numericalAnswer === 2) {
+        alert('you win');
+        tries = 10; 
+    } else {
+        alert('wrong');
+     tries++;
+    }
 
 if (numericalAnswer === 2 ) {
   alert('That is correct! Washington and North Carolina.');
