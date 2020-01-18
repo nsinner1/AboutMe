@@ -75,10 +75,11 @@ var numericalAnswer = prompt('How many states has Natalie lived in?');
 console.log(numericalAnswer);
 
 if (numericalAnswer.toLowerCase() === 2 ) {
-    alert('That is correct! Washington and North Carolina.')
+  alert('That is correct! Washington and North Carolina.');
 } else if (numericalAnswer < 2 ) {
-    alert('too low');
-} else (numericalAnswer > 2) {
-    alert('too high')
+  alert('too low');
+} else { (numericalAnswer > 2);
+  alert('too high');
 }
+
 
