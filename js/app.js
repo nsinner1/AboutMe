@@ -74,10 +74,10 @@ if (vehicleType.toLowerCase() === 'yes') {
 var numericalAnswer = prompt('How many states has Natalie lived in?');
 console.log(numericalAnswer);
 
-var i = 2;
+var numericalAnswer = [2];
 
-for (var i = 2; i < 4; i++) {
-    console.log(numericalAnswer[i]);
+for (var numericalAnswer = 2; numericalAnswer < 4; numericalAnswer++) {
+    console.log(numericalAnswer[numericalAnswer]);
 }
 
 if (numericalAnswer.toLowerCase() === 2 ) {
