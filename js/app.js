@@ -75,26 +75,32 @@
 console.log(numericalAnswer);
 
 var tries = 0;
+// var correctAnswer = Number('2');
+
 
 while (tries < 4) {
-    var numericalAnswer = prompt('How many states has Natalie lived in?');
-    // console.log('answer less then 2');
+  var numericalAnswer = prompt('How many states has Natalie lived in?');
+  // console.log('answer less then 2');
 
-    if (numericalAnswer === 2) {
-        alert('you win');
-        tries = 10; 
-    } else {
-        alert('wrong');
-     tries++;
-    }
+  if (numericalAnswer === '2' ){
+    alert('That is correct! Washington and North Carolina.');
+    tries = 10;
+  } else if (numericalAnswer < 2 ) {
+    alert('too low');
+    tries++;
+  } else {
+    alert('too high');
+  }
 }
+//   var numericalAnswer = Number('2');
 
-if (numericalAnswer === 2 ) {
-  alert('That is correct! Washington and North Carolina.');
-} else if (numericalAnswer < 2 ) {
-  alert('too low');
-} else { (numericalAnswer > 2);
-  alert('too high');
-}
+
+// if (numericalAnswer === 2 ) {
+//   alert('That is correct! Washington and North Carolina.');
+// } else if (numericalAnswer < 2 ) {
+//   alert('too low');
+// } else { (numericalAnswer > 2);
+//   alert('too high');
+// }
 
 
