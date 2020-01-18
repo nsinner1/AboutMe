@@ -82,4 +82,8 @@ if (numericalAnswer.toLowerCase() === 2 ) {
   alert('too high');
 }
 
+var i = 2;
 
+for (var i = 2; i < 4; i = 2) {
+    console.log(numericalAnswer[i]);
+}
