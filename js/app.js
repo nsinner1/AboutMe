@@ -81,7 +81,7 @@ while (numericalAnswer < 2) {
     numericalAnswer++;
 }
 
-if (numericalAnswer.toLowerCase() === 2 ) {
+if (numericalAnswer === 2 ) {
   alert('That is correct! Washington and North Carolina.');
 } else if (numericalAnswer < 2 ) {
   alert('too low');
