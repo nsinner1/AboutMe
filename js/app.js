@@ -71,36 +71,36 @@
 // var endMessage = prompt('Thanks for playing ' + userName);
 // console.log(endMessage);
 
-// var numericalAnswer = prompt('How many states has Natalie lived in?');
-console.log(numericalAnswer);
-
 var tries = 0;
-// var correctAnswer = Number('2');
-
 
 while (tries < 4) {
   var numericalAnswer = prompt('How many states has Natalie lived in?');
-  // console.log('answer less then 2');
+  console.log('numerical answer for states lived in ' + numericalAnswer);
 
   if (numericalAnswer === '2' ){
     alert('That is correct! Washington and North Carolina.');
     tries = 10;
   } else if (numericalAnswer < 2 ) {
-    alert('too low');
+    alert('Number too low');
     tries++;
   } else {
-    alert('too high');
+    alert('Number too high');
+    tries++;
   }
 }
-//   var numericalAnswer = Number('2');
 
+if (tries === 4);{
+  alert('The correct answer is 2');
+}
 
-// if (numericalAnswer === 2 ) {
-//   alert('That is correct! Washington and North Carolina.');
-// } else if (numericalAnswer < 2 ) {
-//   alert('too low');
-// } else { (numericalAnswer > 2);
-//   alert('too high');
-// }
+// var statesBeen = [Oregon, California, Idaho, Montana, South Dakota, Wyoming, Utah, Nebraska, Kansas, Iowa, Minnesota, Wisconsin, Illinios, 
+// Missouri, Indiana, Michigan, Ohio, Kentucky, Tennessee, Alabama, Georgia, South Carolina, North Carolina, Virginia, West Virginia]
+
+var states = ['Oregon', 'California', 'Idaho', 'Montana'];
+console.log(states);
+for ( var i = 0; i < 6; i++) {
+  var statesBeen = prompt('What states has Natalie benn too?');
+  console.log(states[i]);
+}
 
 
