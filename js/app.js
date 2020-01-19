@@ -1,5 +1,8 @@
 'use strict';
 
+// var score = 0;
+// alert(score++); for each question 
+
 // var userName = prompt('What is your name?');
 // console.log(userName);
 
@@ -60,7 +63,7 @@
 // // var vehicleType = prompt('Does Natalie drive a Mini Cooper?');
 // // console.log(vehicleType);
 
-// // if (vehicleType.toLowerCase() === 'yes') {
+// if (vehicleType.toLowerCase() === 'yes') {
 //   alert(userName + ' Correct! My Mini Cooper is named Sheldon');
 // } else if (vehicleType.toLowerCase() === 'no') {
 //   alert(userName + ' You have been tricked, the vehicle that I am driving to school is my mothers');
@@ -96,11 +99,42 @@ if (tries === 4);{
 // var statesBeen = [Oregon, California, Idaho, Montana, South Dakota, Wyoming, Utah, Nebraska, Kansas, Iowa, Minnesota, Wisconsin, Illinios, 
 // Missouri, Indiana, Michigan, Ohio, Kentucky, Tennessee, Alabama, Georgia, South Carolina, North Carolina, Virginia, West Virginia]
 
-var states = ['Oregon', 'California', 'Idaho', 'Montana'];
+var states = ['oregon', 'california', 'idaho', 'montana'];
 console.log(states);
-for ( var i = 0; i < 6; i++) {
-  var statesBeen = prompt('What states has Natalie benn too?');
-  console.log(states[i]);
+
+
+var fails = 0;
+
+while (fails < 4) {
+  var stateName = prompt('How many states has Natalie been too?');
+  console.log('State guess ' + stateName);
+
+  for ( var i = 0; i < states.length; i++) {
+    if (stateName.toLowerCase() === states[i]) {
+      alert('You answered correctly');
+      console.log('correct');
+      fails = 10;
+    } else {
+      alert('You answered incorrectly, please try again');
+      console.log('incorrect');
+    }
+  }
+  fails++;
 }
+
+
+
+// alert(score);
+
+// for ( var i = 0; i < 6; i++) {
+//   var statesBeen = prompt('What states has Natalie been too?');
+//   console.log(states[i]);
+// }
+
+// if (states.toLowerCase() === 'Oregon', 'California', 'Idaho', 'Montana') {
+//     alert('You are correct!');
+// } else {
+//     alert('no');
+// }
 
 
