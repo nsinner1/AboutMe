@@ -60,7 +60,7 @@ if (doesCrossFit.toLowerCase() === 'yes') {
   alert('Please answer with yes or no');
 }
 
-// var vehicleType = prompt('Does Natalie drive a Mini Cooper?');
+var vehicleType = prompt('Does Natalie drive a Mini Cooper?');
 // console.log(vehicleType);
 
 if (vehicleType.toLowerCase() === 'yes') {
@@ -71,14 +71,14 @@ if (vehicleType.toLowerCase() === 'yes') {
   alert(userName + ' Please answer with yes or no');
 }
 
-var endMessage = prompt('Thanks for playing ' + userName);
+// var endMessage = prompt('Thanks for playing ' + userName);
 // console.log(endMessage);
 
 var tries = 0;
 
 while (tries < 4) {
   var numericalAnswer = prompt('How many states has Natalie lived in?');
-//   console.log('numerical answer for states lived in ' + numericalAnswer);
+  //   console.log('numerical answer for states lived in ' + numericalAnswer);
 
   if (numericalAnswer === '2' ){
     alert('That is correct! Washington and North Carolina.');
@@ -107,12 +107,12 @@ var fails = 0;
 
 while (fails < 4) {
   var stateName = prompt('How many states has Natalie been too?');
-//   console.log('State guess ' + stateName);
+  //   console.log('State guess ' + stateName);
 
   for ( var i = 0; i < states.length; i++) {
     if (stateName.toLowerCase() === states[i]) {
       alert('You answered correctly');
-    //   console.log('correct');
+      //   console.log('correct');
       fails = 10;
     } else {
       alert('You answered incorrectly, please try again');
