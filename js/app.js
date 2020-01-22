@@ -19,9 +19,9 @@ if (greetUser.toLowerCase() === 'yes') {
 var natalieAge = prompt('Is Natalie 27 years old?');
 // console.log(natalieAge);
 
-if (natalieAge.toLocaleLowerCase() === 'yes') {
+if (natalieAge.toLowerCase() === 'yes') {
   alert('You are correct!');
-} else if (natalieAge.toLocaleLowerCase() === 'no') {
+} else if (natalieAge.toLowerCase() === 'no') {
   alert('You are incorrect');
 } else {
   alert('Please add a numerical answer');
@@ -80,7 +80,7 @@ while (tries < 4) {
   var numericalAnswer = prompt('How many states has Natalie lived in?');
   //   console.log('numerical answer for states lived in ' + numericalAnswer);
 
-  if (numericalAnswer === '2' ){
+  if (numericalAnswer.parseInt() === 2 ){
     alert('That is correct! Washington and North Carolina.');
     tries = 10;
   } else if (numericalAnswer < 2 ) {
@@ -92,7 +92,7 @@ while (tries < 4) {
   }
 }
 
-if (tries === 4);{
+if (tries === 4){
   alert('The correct answer is 2');
 }
 
