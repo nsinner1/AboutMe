@@ -113,11 +113,11 @@ while (fails < 6) {
     if (stateName.toLowerCase() === states[i]) {
       alert('You answered correctly');
       //   console.log('correct');
-      fails = 1;
+      fails === 0; 
     } else if (stateName.toLowerCase() !== states[i]) {
       alert('You answered incorrectly, please try again');
       //   console.log('incorrect');
-      fails = 1;
+      fails === 1;
     }
   }
   fails++;
