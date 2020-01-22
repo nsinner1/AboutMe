@@ -80,7 +80,7 @@ while (tries < 4) {
   var numericalAnswer = prompt('How many states has Natalie lived in?');
   //   console.log('numerical answer for states lived in ' + numericalAnswer);
 
-  if (numericalAnswer.parseInt() === 2 ){
+  if (numericalAnswer === '2'){
     alert('That is correct! Washington and North Carolina.');
     tries = 10;
   } else if (numericalAnswer < 2 ) {
@@ -105,7 +105,7 @@ var states = ['oregon', 'california', 'idaho', 'montana', 'south dakota', 'ohio'
 
 var fails = 0;
 
-while (fails < 6) {
+// while (fails < 6) {
   var stateName = prompt('Guess what states Natalie has been too?');
   //   console.log('State guess ' + stateName);
 
