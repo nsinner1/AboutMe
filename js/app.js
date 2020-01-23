@@ -122,35 +122,40 @@ questionSeven();
 // var statesBeen = [Oregon, California, Idaho, Montana, South Dakota, Wyoming, Utah, Nebraska, Kansas, Iowa, Minnesota, Wisconsin, Illinios, 
 // Missouri, Indiana, Michigan, Ohio, Kentucky, Tennessee, Alabama, Georgia, South Carolina, North Carolina, Virginia, West Virginia]
 
-var states = ['oregon', 'california', 'idaho', 'montana', 'south dakota', 'ohio'];
-// console.log(states);
+
+function questionEight() {
+  var states = ['oregon', 'california', 'idaho', 'montana', 'south dakota', 'ohio'];
+  // console.log(states);
 
 
-var fails = 0;
+  var fails = 0;
 
-// while (fails < 6) {
-for (var x = 0; x < 6; x++){
-  var stateName = prompt('Guess what states Natalie has been too?');
-  console.log('State guess ' + stateName);
+  // while (fails < 6) {
+  for (var x = 0; x < 6; x++){
+    var stateName = prompt('Guess what states Natalie has been too?');
+    console.log('State guess ' + stateName);
 
-  for ( var i = 0; i < states.length; i++) {
-    if (stateName.toLowerCase() === states[i]) {
-      alert('You answered correctly');
-      console.log('correct');
-      break;
+    for ( var i = 0; i < states.length; i++) {
+      if (stateName.toLowerCase() === states[i]) {
+        alert('You answered correctly');
+        console.log('correct');
+        break;
       // fails === 0; 
-    } else if (stateName.toLowerCase() !== states[i]) {
-      alert('You answered incorrectly, please try again');
-      console.log('incorrect');
+      } else if (stateName.toLowerCase() !== states[i]) {
+        alert('You answered incorrectly, please try again');
+        console.log('incorrect');
       // fails === 1;
+      }
     }
-  }
   // fails++;
+  }
+
+
+  // for (var x = 0; x < 6; x++)
+  // var stateName = prompt('Guess what states Natalie has been too?');
+
 }
-
-
-// for (var x = 0; x < 6; x++)
-// var stateName = prompt('Guess what states Natalie has been too?');
+questionEight();
 
 
 // alert(score);
