@@ -93,27 +93,31 @@ questionSix();
 // var endMessage = prompt('Thanks for playing ' + userName);
 // console.log(endMessage);
 
-var tries = 0;
+function questionSeven() {
+  var tries = 0;
 
-while (tries < 4) {
-  var numericalAnswer = prompt('How many states has Natalie lived in?');
-  //   console.log('numerical answer for states lived in ' + numericalAnswer);
+  while (tries < 4) {
+    var numericalAnswer = prompt('How many states has Natalie lived in?');
+    //   console.log('numerical answer for states lived in ' + numericalAnswer);
 
-  if (numericalAnswer === '2'){
-    alert('That is correct! Washington and North Carolina.');
-    tries = 10;
-  } else if (numericalAnswer < 2 ) {
-    alert('Number too low');
-    tries++;
-  } else {
-    alert('Number too high');
-    tries++;
+    if (numericalAnswer === '2'){
+      alert('That is correct! Washington and North Carolina.');
+      tries = 10;
+    } else if (numericalAnswer < 2 ) {
+      alert('Number too low');
+      tries++;
+    } else {
+      alert('Number too high');
+      tries++;
+    }
+  }
+
+  if (tries === 4){
+    alert('The correct answer is 2');
   }
 }
+questionSeven();
 
-if (tries === 4){
-  alert('The correct answer is 2');
-}
 
 // var statesBeen = [Oregon, California, Idaho, Montana, South Dakota, Wyoming, Utah, Nebraska, Kansas, Iowa, Minnesota, Wisconsin, Illinios, 
 // Missouri, Indiana, Michigan, Ohio, Kentucky, Tennessee, Alabama, Georgia, South Carolina, North Carolina, Virginia, West Virginia]
