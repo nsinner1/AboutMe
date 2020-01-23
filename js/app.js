@@ -105,24 +105,29 @@ var states = ['oregon', 'california', 'idaho', 'montana', 'south dakota', 'ohio'
 
 var fails = 0;
 
-while (fails < 6) {
+// while (fails < 6) {
+  for (var x = 0; x < 6; x++){
   var stateName = prompt('Guess what states Natalie has been too?');
-  //   console.log('State guess ' + stateName);
+    console.log('State guess ' + stateName);
 
   for ( var i = 0; i < states.length; i++) {
     if (stateName.toLowerCase() === states[i]) {
       alert('You answered correctly');
-      //   console.log('correct');
-      fails === 0; 
+        console.log('correct');
+        break;
+      // fails === 0; 
     } else if (stateName.toLowerCase() !== states[i]) {
       alert('You answered incorrectly, please try again');
-      //   console.log('incorrect');
-      fails === 1;
+        console.log('incorrect');
+      // fails === 1;
     }
   }
-  fails++;
+  // fails++;
 }
 
+
+// for (var x = 0; x < 6; x++)
+// var stateName = prompt('Guess what states Natalie has been too?');
 
 
 // alert(score);
