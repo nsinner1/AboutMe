@@ -47,17 +47,20 @@ function questionThree() {
 }
 questionThree();
 
+function questionFour() {
+  var likeWine = prompt('Does Natalie like wine?');
+  // console.log(likeWine);
 
-var likeWine = prompt('Does Natalie like wine?');
-// console.log(likeWine);
-
-if (likeWine.toLowerCase() === 'yes') {
-  alert('That is correct, I like red and white wines');
-} else if (likeWine.toLowerCase() === 'no') {
-  alert('What are you talkin bout Willis, I LOVE wine!');
-} else {
-  alert('Please answer with yes or no');
+  if (likeWine.toLowerCase() === 'yes') {
+    alert('That is correct, I like red and white wines');
+  } else if (likeWine.toLowerCase() === 'no') {
+    alert('What are you talkin bout Willis, I LOVE wine!');
+  } else {
+    alert('Please answer with yes or no');
+  }
 }
+questionFour();
+
 
 var doesCrossFit = prompt('Does Natalie workout?');
 // console.log(doesCrossFit);
