@@ -6,15 +6,18 @@
 var userName = prompt('What is your name?');
 console.log(userName);
 
-var greetUser = prompt('Hello,' + userName + '. Are your ready to play a game?');
+function questionOne() {
+  var greetUser = prompt('Hello,' + userName + '. Are your ready to play a game?');
 
-if (greetUser.toLowerCase() === 'yes') {
-  alert('You chose wisely');
-} else if (greetUser.toLowerCase() === 'no') {
-  alert('You chose poorly');
-} else {
-  alert('You are going to play this game wether you like it or not');
+  if (greetUser.toLowerCase() === 'yes') {
+    alert('You chose wisely');
+  } else if (greetUser.toLowerCase() === 'no') {
+    alert('You chose poorly');
+  } else {
+    alert('You are going to play this game wether you like it or not');
+  }
 }
+questionOne();
 
 var natalieAge = prompt('Is Natalie 27 years old?');
 // console.log(natalieAge);
@@ -106,19 +109,19 @@ var states = ['oregon', 'california', 'idaho', 'montana', 'south dakota', 'ohio'
 var fails = 0;
 
 // while (fails < 6) {
-  for (var x = 0; x < 6; x++){
+for (var x = 0; x < 6; x++){
   var stateName = prompt('Guess what states Natalie has been too?');
-    console.log('State guess ' + stateName);
+  console.log('State guess ' + stateName);
 
   for ( var i = 0; i < states.length; i++) {
     if (stateName.toLowerCase() === states[i]) {
       alert('You answered correctly');
-        console.log('correct');
-        break;
+      console.log('correct');
+      break;
       // fails === 0; 
     } else if (stateName.toLowerCase() !== states[i]) {
       alert('You answered incorrectly, please try again');
-        console.log('incorrect');
+      console.log('incorrect');
       // fails === 1;
     }
   }
