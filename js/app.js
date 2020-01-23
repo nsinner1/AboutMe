@@ -19,16 +19,20 @@ function questionOne() {
 }
 questionOne();
 
-var natalieAge = prompt('Is Natalie 27 years old?');
-// console.log(natalieAge);
+function questionTwo() {
+  var natalieAge = prompt('Is Natalie 27 years old?');
+  // console.log(natalieAge);
 
-if (natalieAge.toLowerCase() === 'yes') {
-  alert('You are correct!');
-} else if (natalieAge.toLowerCase() === 'no') {
-  alert('You are incorrect');
-} else {
-  alert('Please add a numerical answer');
+  if (natalieAge.toLowerCase() === 'yes') {
+    alert('You are correct!');
+  } else if (natalieAge.toLowerCase() === 'no') {
+    alert('You are incorrect');
+  } else {
+    alert('Please add a numerical answer');
+  }
 }
+questionTwo();
+
 
 var hairColor = prompt('Is Natalies hair color blue?');
 // console.log(hairColor);
