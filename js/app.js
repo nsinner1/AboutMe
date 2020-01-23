@@ -33,17 +33,20 @@ function questionTwo() {
 }
 questionTwo();
 
+function questionThree() {
+  var hairColor = prompt('Is Natalies hair color blue?');
+  // console.log(hairColor);
 
-var hairColor = prompt('Is Natalies hair color blue?');
-// console.log(hairColor);
-
-if (hairColor.toLowerCase() === 'yes') {
-  alert('You are incorrect');
-} else if (hairColor.toLowerCase() === 'no') {
-  alert('That is correct, I have brown hair');
-} else {
-  alert('Please answer with yes or no');
+  if (hairColor.toLowerCase() === 'yes') {
+    alert('You are incorrect');
+  } else if (hairColor.toLowerCase() === 'no') {
+    alert('That is correct, I have brown hair');
+  } else {
+    alert('Please answer with yes or no');
+  }
 }
+questionThree();
+
 
 var likeWine = prompt('Does Natalie like wine?');
 // console.log(likeWine);
