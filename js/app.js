@@ -61,17 +61,20 @@ function questionFour() {
 }
 questionFour();
 
+function questionFive() {
+  var doesCrossFit = prompt('Does Natalie workout?');
+  // console.log(doesCrossFit);
 
-var doesCrossFit = prompt('Does Natalie workout?');
-// console.log(doesCrossFit);
-
-if (doesCrossFit.toLowerCase() === 'yes') {
-  alert('Correct, Natalie enjoys CrossFit');
-} else if (doesCrossFit.toLowerCase() === 'no') {
-  alert('You are incorrect');
-} else {
-  alert('Please answer with yes or no');
+  if (doesCrossFit.toLowerCase() === 'yes') {
+    alert('Correct, Natalie enjoys CrossFit');
+  } else if (doesCrossFit.toLowerCase() === 'no') {
+    alert('You are incorrect');
+  } else {
+    alert('Please answer with yes or no');
+  }
 }
+questionFive();
+
 
 var vehicleType = prompt('Does Natalie drive a Mini Cooper?');
 // console.log(vehicleType);
