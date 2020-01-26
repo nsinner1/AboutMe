@@ -18,7 +18,27 @@ h2 {
     margin-left: 25px;
 }
 
+h3 {
+    font-size: large;
+    font-weight: bold;
+    color: violet;
+    font-style: italic;
+    margin-left: 25px;
+}
+
 p {
     color: teal;
     margin: 25px;
+}
+
+ul {
+    color: teal;
+    list-style-type: circle;
+    margin: 20px;
+}
+
+ol {
+    color: teal;
+    list-style-type: square;
+    margin: 20px;
 }
